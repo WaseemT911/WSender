@@ -13,7 +13,7 @@ REM  no Python or libraries needed on the target PC)
 REM ==================================================================
 cd /d "%~dp0"
 
-pyinstaller --noconfirm --onefile --name "WhatsAppSender" --collect-all customtkinter main.py
+pyinstaller --noconfirm --onefile --name "WSender" --collect-all customtkinter main.py
 if errorlevel 1 (
     echo.
     echo Build FAILED. Make sure Python 3.8 and PyInstaller are installed:
