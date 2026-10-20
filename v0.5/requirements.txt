@@ -1,0 +1,7 @@
+customtkinter
+openpyxl
+pywhatkit
+arabic-reshaper
+python-bidi
+rich
+pillow
