@@ -32,10 +32,10 @@ if exist images xcopy /E /I /Y images dist\images >nul
 
 echo.
 echo ============================================================
-echo  Build OK:  dist\WhatsAppSender.exe
+echo  Build OK:  dist\WSender.exe
 REM
 echo  To install on a PC: copy these onto it (any folder):
-echo      WhatsAppSender.exe
+echo      WSender.exe
 echo      config.ini  message.txt  data.xlsx  images\
 echo ============================================================
 pause
