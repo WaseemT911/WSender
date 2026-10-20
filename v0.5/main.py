@@ -28,11 +28,11 @@ if sys.stdout is not None:
 
 
 DEFAULT_CONFIG = """[settings]
-load_data = data.xlsx
-wait_time = 10
-tab_close = True
-image_folder = images/
-page_size = 25
+load_data = data.xlsx           # Load data from .xlsx file (default = data.xlsx)
+wait_time = 10                  # Time in seconds (default = 10)
+tab_close = True                # Close tab after sending the message (default = True)
+image_folder = images/          # Images folder path (default = images/)
+page_size = 25                  # Size of the pages in the GUI preview window (default = 25)
 """
 
 
