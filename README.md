@@ -72,6 +72,3 @@ Features in GUI:
 - For WhatsApp Web automation, `pywhatkit` will open a browser tab
 - On Linux, `copyq` may be used for image copying
 
-## License
-
-This project is for personal use.
